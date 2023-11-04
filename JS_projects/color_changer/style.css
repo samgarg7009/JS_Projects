@@ -1,0 +1,24 @@
+span {
+    display: block;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+}
+
+#grey {
+  background: grey;
+}
+
+#white {
+  background: white;
+}
+#blue {
+  background: blue;
+}
+#yellow {
+  background: rgb(236, 236, 6);
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+            <label2 for="guessField" id="guess">guess a number</label>
+            <input type="number" id="guessfield" class="guessfield"/>
+            <input type="submit" id="sbmt" value="submit guess" class="guessSubmit"/>
+        </form>
+
+        <div class="result">
+            <p> Previous Guesses <span class="guesses"></span></p>
+            <p >Guesses Remaining <span class="lastresult">10</span></p>
+            <p class="loworhi"></p>
+        </div>
+    </div>
+    <script src="guessTheNumber.js"></script>
+</body>
+</html>
